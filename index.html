@@ -1,4 +1,4 @@
-6*<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
 
         .container {
             display: flex;
-            gap: 25px;
+            gap: 30px;
         }
 
         .btn {
@@ -36,12 +36,16 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            min-width: 180px;
+            min-width: 200px;
         }
 
         .btn:hover {
             transform: translateY(-8px) scale(1.05);
             box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
         }
 
         .btn1 {
@@ -51,20 +55,20 @@
         .btn2 {
             background: linear-gradient(135deg, #1dd1a1, #10ac84);
         }
-
-        .btn:active {
-            transform: scale(0.95);
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccB5bxOpZpNK5IqjGLdoTvbIljP7Ic_aXoF2u8L__E1maRYA/viewform?usp=publish-editor"" class="btn btn1 target="_blank">
-           google form
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccB5bxOpZpNK5IqjGLdoTvbIljP7Ic_aXoF2u8L__E1maRYA/viewform?usp=publish-editor" 
+           class="btn btn1" 
+           target="_blank">
+           Google Form
         </a>
-       
-        <a href="https://datastudio.google.com/reporting/0e30fb64-b735-4b8a-b4c9-fb108de0b403" class="btn btn2" target="_blank">
-            sajian data
+      
+        <a href="https://datastudio.google.com/reporting/0e30fb64-b735-4b8a-b4c9-fb108de0b403" 
+           class="btn btn2" 
+           target="_blank">
+            Sajian Data
         </a>
     </div>
 </body>
