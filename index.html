@@ -1,0 +1,70 @@
+*<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Aesthetic Buttons</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 25px;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+        }
+
+        .btn:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn1 {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+        }
+
+        .btn2 {
+            background: linear-gradient(135deg, #1dd1a1, #10ac84);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://google.com" class="btn btn1" target="_blank">
+            Tombol Satu
+        </a>
+        <a href="https://youtube.com" class="btn btn2" target="_blank">
+            Tombol Dua
+        </a>
+    </div>
+</body>
+</html>
